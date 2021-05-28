@@ -1,0 +1,27 @@
+# UVQSJ101629
+# Z = -1.21
+# glon = 268.3692
+# glat = +20.4379
+Ion		v_c 	b 	N 		N_e
+HI  	+210	0	18.470 	0.050
+OI  	+215	40	13.960	0.310
+SII 	+215	40	14.620	0.000
+SiII 	+209	33	12.757	0.098
+SiII	+253	12	12.472	0.119
+SiIII	+156	14	12.552	0.166
+SiIII	+224	30	13.020	0.087
+
+grab header with reading line w/ # then rest to numpy
+
+data=np.genfromtxt(chunkoftext, skip_header=1, names=True)
+
+
+# NGC3125
+# Z=-1.40
+# glon = 265.3254
+# glat = +20.6448
+HI		+210	0 	19.050 	0.050
+OI		+208	38	14.370	0.280
+SII 	+208	38	14.900	0.000
+SiII 	+197	37	13.164	0.072
+SiIV	+206	54 	12.868	0.171
